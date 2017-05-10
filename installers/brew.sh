@@ -28,6 +28,7 @@ brew install lcov
 brew install libxml2
 brew install lua
 brew install macvim --with-override-system-vim
+brew install mas
 brew install ncdu
 brew install neofetch
 brew install ninja
@@ -44,7 +45,6 @@ brew install zsh
 
 # Install casks
 brew cask install vlc
-brew cask install slack
 
 # Cleanup
 brew cleanup
