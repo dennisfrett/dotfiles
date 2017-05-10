@@ -1,8 +1,8 @@
 [core]
  	editor = vim
 [user]
-	email = jonas@devlieghere.com
-	name = Jonas Devlieghere
+  email = dennis.frett@live.com
+	name = Dennis Frett
 [push]
 	default = simple
 [grep]
@@ -12,8 +12,6 @@
 	ui = auto
 	branch = auto
 	diff = auto
-[commit]
-	gpgsign = true
 [diff "bin"]
 	textconv = hexdump -v -C
 [help]
