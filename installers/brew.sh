@@ -43,7 +43,8 @@ brew install xz
 brew install zsh
 
 # Install casks
-brew cask vlc
+brew cask install vlc
+brew cask install slack
 
 # Cleanup
 brew cleanup
