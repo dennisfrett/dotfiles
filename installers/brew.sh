@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Install Homebrew or make sure it's up to date
 which -s brew
 if [[ $? != 0 ]] ; then
@@ -10,6 +12,7 @@ fi
 # Install formulae
 brew install ag
 brew install binutils
+brew install boost
 brew install ccache
 brew install cloc
 brew install cmake
@@ -44,6 +47,9 @@ brew install xz
 brew install zsh
 
 # Install casks
+brew cask install google-chrome
+brew cask install iterm2
+brew cask install tunnelblick
 brew cask install vlc
 
 # Cleanup
