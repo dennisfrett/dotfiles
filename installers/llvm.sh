@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Builds LLVM, clang and clang-tools extra in the curren directory.
+# Builds LLVM, clang and clang-tools extra in the current directory.
 # .
 # ├── build
 # ├── install
