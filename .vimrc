@@ -58,7 +58,7 @@ Plug 'rust-lang/rust.vim', { 'for': 'rust' }
 
 " YouCompleteMe
 if has("python")
-    Plug 'valloric/youcompleteme', { 'do': './install.py --clang-completer --gocode-completer --tern-completer --racer-completer' }
+    Plug 'valloric/youcompleteme', { 'do': './install.py --clang-completer' }
 endif
 
 call plug#end()
@@ -147,10 +147,6 @@ set mouse=nicr                  " Disable mouse
 cnoreabbrev W w
 cnoreabbrev Q q
 cnoreabbrev Qa qa
-
-" Italics
-highlight Comment cterm=italic
-highlight htmlArg cterm=italic
 
 " Wrapping
 set nowrap                      " No wrapping
