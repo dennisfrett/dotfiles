@@ -1,1 +1,0 @@
-mas install 803453959 # Install Slack
