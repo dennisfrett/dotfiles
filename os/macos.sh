@@ -139,7 +139,7 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # Set a blazingly fast keyboard repeat rate.
-defaults write -g InitialKeyRepeat -int 10
+defaults write -g InitialKeyRepeat -int 12
 defaults write -g KeyRepeat -int 1
 
 # Set language and text formats
