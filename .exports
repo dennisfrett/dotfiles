@@ -45,3 +45,6 @@ end
 if test -e /usr/local/opt/ccache
   set PATH /usr/local/opt/ccache/libexec $PATH
 end
+
+# Add Arcanist to path
+set PATH /Users/dennisfrett/dev/phabricator/arcanist/bin $PATH
