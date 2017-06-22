@@ -46,5 +46,14 @@ if test -e /usr/local/opt/ccache
   set PATH /usr/local/opt/ccache/libexec $PATH
 end
 
-# Add Arcanist to path
-set PATH /Users/dennisfrett/dev/phabricator/arcanist/bin $PATH
+# Add LLVM binaries to path
+if test -e /Users/dennisfrett/dev/swift-llvm/install/bin/llvm-dis
+	set PATH /Users/dennisfrett/dev/swift-llvm/install/bin $PATH
+end
+
+# Add Arcanist binaries to path
+if test -e /Users/dennisfrett/dev/phabricator/arcanist/bin/arc
+	set PATH /Users/dennisfrett/dev/phabricator/arcanist/bin $PATH
+end
+
+set -x PATH $HOME/.fastlane/bin/fastlane_lib $PATH
